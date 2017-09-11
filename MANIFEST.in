@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include agri_erpnext *.css
+recursive-include agri_erpnext *.csv
+recursive-include agri_erpnext *.html
+recursive-include agri_erpnext *.ico
+recursive-include agri_erpnext *.js
+recursive-include agri_erpnext *.json
+recursive-include agri_erpnext *.md
+recursive-include agri_erpnext *.png
+recursive-include agri_erpnext *.py
+recursive-include agri_erpnext *.svg
+recursive-include agri_erpnext *.txt
+recursive-exclude agri_erpnext *.pyc
